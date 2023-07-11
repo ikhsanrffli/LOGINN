@@ -1,0 +1,140 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  object-fit: cover; 
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+.container .flex-item {
+  position: relative;
+  width: 300px;
+  height: 533px;
+  margin: 10px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 5%;
+}
+.container .flex-item.morning {
+  background: url("https://i.pinimg.com/236x/22/e7/98/22e798d7b187b6acf3769dd115f4f0f6.jpg");
+  background-size: cover;
+
+}
+
+.container .flex-item h1 {
+  padding-top: 15%;
+  font-weight:400;
+  color: rgb(237, 237, 237);
+
+}
+.container .flex-item h1 span {
+  border-bottom: solid 5px hsl(288, 38%, 60%);
+}
+.container .flex-item p {
+  font-size: 0.75em;
+  color: rgba(255, 255, 255, 0.5);
+}
+.container .flex-item .ui.icon.input {
+  margin-bottom: 10px;
+  
+}
+.container .flex-item .ui.icon.input.username {
+  margin-top: 60%;
+}
+.container .flex-item .ui.icon.input.password {
+  margin-top: 5%;
+}
+.container .flex-item .ui.icon.input input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0;
+  padding: 10px 5px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  background-color:#6f4b4b62;
+  outline:none;
+
+}
+.container .flex-item .ui.icon.input input::-moz-placeholder {
+ 
+  color: rgba(255, 255, 255, 0.9);
+  opacity: 1; 
+  
+
+}
+.container .flex-item .ui.icon.input input::placeholder {
+  
+  color: rgba(255, 255, 255, 0.9);
+  opacity: 1; 
+}
+.container .flex-item .ui.icon.input input:focus::placeholder{
+color:transparent;
+}
+.container .flex-item .ui.icon.input i {
+  color: rgba(255, 255, 255, 0.8);
+  
+}
+.container .flex-item a.btn {
+  position: absolute;
+  bottom: 10%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(204, 149, 214, 0.465);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  height: 20px;
+  line-height: 1;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+.container .flex-item a.btn.left {
+  left: 33%;
+}
+.container .flex-item a.btn:hover {
+  background: rgba(237, 114, 114, 0.902);
+}
+.container .flex-item a.text-link {
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(255, 255, 255);
+  height: 20px;
+  line-height: 1;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+}/*# sourceMappingURL=style.css.map */
